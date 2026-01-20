@@ -1,0 +1,57 @@
+E:\DocsHouse\563 grokking visc>python3.13 thealchemist.py
+
+E:\DocsHouse\563 grokking visc>python3.13 thealchemist.py
+C:\Users\antti\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\torch\nn\modules\transformer.py:382: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+--- PHASE 1: BUILDING THE LABORATORY (Training Physics) ---
+Ep 0 | Physics Acc: Add 1.1% | Mult 1.0%
+Ep 100 | Physics Acc: Add 66.0% | Mult 63.8%
+Ep 200 | Physics Acc: Add 97.9% | Mult 97.4%
+Ep 300 | Physics Acc: Add 99.4% | Mult 99.4%
+
+--- PHASE 2: THE ALCHEMIST (Discovering Formulas) ---
+Goal: Given T, find A and B such that A * B = T
+Method: Backprop through the frozen Physics Engine
+Ep 0 (Temp 2.0) | Factorization Acc: 1.0%
+  Target 12 -> 31 * 30 = 57
+  Target 21 -> 31 * 64 = 44
+  Target 42 -> 53 * 65 = 50
+Ep 100 (Temp 1.8) | Factorization Acc: 11.3%
+  Target 12 -> 57 * 86 = 52
+  Target 21 -> 57 * 86 = 52
+  Target 42 -> 92 * 92 = 25
+Ep 200 (Temp 1.6) | Factorization Acc: 38.1%
+  Target 12 -> 86 * 43 = 12
+  Target 21 -> 77 * 62 = 21
+  Target 42 -> 20 * 9 = 83
+Ep 300 (Temp 1.4) | Factorization Acc: 74.2%
+  Target 12 -> 86 * 43 = 12
+  Target 21 -> 77 * 62 = 21
+  Target 42 -> 37 * 9 = 42
+Ep 400 (Temp 1.2) | Factorization Acc: 90.7%
+  Target 12 -> 86 * 43 = 12
+  Target 21 -> 77 * 62 = 21
+  Target 42 -> 37 * 9 = 42
+Ep 500 (Temp 1.0) | Factorization Acc: 94.8%
+  Target 12 -> 86 * 43 = 12
+  Target 21 -> 77 * 62 = 21
+  Target 42 -> 37 * 9 = 42
+Ep 600 (Temp 0.8) | Factorization Acc: 100.0%
+  Target 12 -> 86 * 43 = 12
+  Target 21 -> 77 * 62 = 21
+  Target 42 -> 37 * 9 = 42
+Ep 700 (Temp 0.6) | Factorization Acc: 100.0%
+  Target 12 -> 86 * 43 = 12
+  Target 21 -> 77 * 62 = 21
+  Target 42 -> 37 * 9 = 42
+Ep 800 (Temp 0.5) | Factorization Acc: 100.0%
+  Target 12 -> 86 * 43 = 12
+  Target 21 -> 77 * 62 = 21
+  Target 42 -> 37 * 9 = 42
+Ep 900 (Temp 0.5) | Factorization Acc: 100.0%
+  Target 12 -> 86 * 43 = 12
+  Target 21 -> 77 * 62 = 21
+  Target 42 -> 37 * 9 = 42
+Saved alchemist.png
+
+E:\DocsHouse\563 grokking visc>
